@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía Práctica de Bienestar Personal | Descarga Digital</title>
+    <style>
+        :root {
+            --primary: #4a6fa5;
+            --secondary: #6b8cae;
+            --accent: #ff7e5f;
+            --light: #f8f9fa;
+            --dark: #343a40;
+            --gray: #6c757d;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            background-color: #f5f7fa;
+            color: var(--dark);
+            line-height: 1.6;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+            border-radius: 0 0 20px 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        
+        h2 {
+            font-size: 22px;
+            color: var(--primary);
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        
+        h3 {
+            font-size: 18px;
+            color: var(--secondary);
+            margin-top: 25px;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            border: 1px solid #e9ecef;
+        }
+        
+        .highlight-card {
+            border-left: 5px solid var(--accent);
+            background-color: #f8f9fa;
+        }
+        
+        .button {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            padding: 14px 28px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            text-align: center;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+            max-width: 300px;
+            margin: 20px auto;
+            box-shadow: 0 4px 8px rgba(255, 126, 95, 0.3);
+        }
+        
+        .button:hover {
+            background: #ff6a4a;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(255, 126, 95, 0.4);
+        }
+        
+        .feature-list {
+            columns: 2;
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        
+        .feature-list li {
+            margin-bottom: 12px;
+            padding-left: 25px;
+            position: relative;
+            break-inside: avoid;
+        }
+        
+        .feature-list li:before {
+            content: "✓";
+            color: var(--accent);
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        
+        .testimonial {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-left: 3px solid var(--secondary);
+        }
+        
+        .testimonial-text {
+            font-style: italic;
+            color: var(--gray);
+            margin-bottom: 10px;
+        }
+        
+        .testimonial-author {
+            font-weight: 600;
+            color: var(--dark);
+        }
+        
+        .price-box {
+            text-align: center;
+            background: linear-gradient(135deg, #f8f9fa, white);
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px dashed var(--secondary);
+            margin: 30px 0;
+        }
+        
+        .price {
+            font-size: 36px;
+            font-weight: 700;
+            color: var(--primary);
+            margin: 10px 0;
+        }
+        
+        .bonus {
+            color: var(--accent);
+            font-weight: 600;
+            margin: 15px 0;
+        }
+        
+        .disclaimer {
+            font-size: 12px;
+            color: var(--gray);
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e9ecef;
+            line-height: 1.5;
+        }
+        
+        @media (max-width: 600px) {
+            .feature-list {
+                columns: 1;
+            }
+            
+            h1 {
+                font-size: 24px;
+            }
+            
+            h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Guía Práctica de Bienestar Personal</h1>
+            <p>50 páginas de consejos útiles para tu vida diaria</p>
+        </header>
+        
+        <div class="card">
+            <h2>¿Qué encontrarás en esta guía?</h2>
+            <p>Una recopilación cuidadosamente organizada de información práctica para mejorar tu bienestar emocional y físico.</p>
+            
+            <ul class="feature-list">
+                <li>Técnicas básicas de meditación guiada</li>
+                <li>Uso seguro de aromaterapia en el hogar</li>
+                <li>Consejos para crear espacios relajantes</li>
+                <li>Métodos naturales para mejorar el sueño</li>
+                <li>Plantas que purifican el ambiente</li>
+                <li>Organización mental y diario personal</li>
+                <li>Preparación de baños relajantes</li>
+                <li>Manejo saludable del estrés</li>
+                <li>Ciclos naturales y su influencia</li>
+                <li>Uso decorativo de elementos naturales</li>
+            </ul>
+            
+            <a href="#oferta" class="button">QUIERO VER LA GUÍA</a>
+        </div>
+        
+        <div class="card highlight-card">
+            <h3>Beneficios exclusivos</h3>
+            <ul class="feature-list">
+                <li>PDF descargable inmediato</li>
+                <li>Diseño responsive para cualquier dispositivo</li>
+                <li>Acceso permanente después de la compra</li>
+                <li>Actualizaciones gratuitas futuras</li>
+                <li>Formato imprimible</li>
+                <li>Guía complementaria incluida</li>
+            </ul>
+        </div>
+        
+        <div class="card">
+            <h2>Experiencias de nuestros lectores</h2>
+            
+            <div class="testimonial">
+                <p class="testimonial-text">"La guía me ayudó a organizar mejor mis rutinas de relajación. Los consejos son prácticos y fáciles de implementar."</p>
+                <p class="testimonial-author">- Marta R., Barcelona</p>
+            </div>
+            
+            <div class="testimonial">
+                <p class="testimonial-text">"Me gustó especialmente la sección sobre plantas purificadoras. Ahora mi hogar se siente más fresco y agradable."</p>
+                <p class="testimonial-author">- Javier L., Madrid</p>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Garantía de satisfacción</h2>
+            <p>Estamos tan seguros de que encontrarás valor en esta guía que te ofrecemos 7 días para evaluarla. Si no cumple con tus expectativas, te devolvemos tu inversión.</p>
+        </div>
+        
+        <div id="oferta" class="price-box">
+            <h2>Oferta especial por tiempo limitado</h2>
+            <p class="bonus">Incluye guía complementaria GRATIS</p>
+            <div class="price">$9.90</div>
+            <p>Pago único - Sin suscripciones</p>
+            <a href="#" class="button">DESCARGAR AHORA</a>
+            <p><small>Disponible para descarga inmediata</small></p>
+        </div>
+        
+        <div class="disclaimer">
+        
+        </div>
+    </div>
+</body>
+
+</html>
